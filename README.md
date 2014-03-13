@@ -75,11 +75,11 @@ basically a merge of [2,4,7], where [7] provided the final clue.
 
 I also integrated Tomcat connection pool and made a small adjustment to show that the transactions work. 
 
-[1] https://github.com/amacoder/demo-restWS-spring-jersey-tomcat-mybatis/blob/master/pom.xml
-[2] http://www.codingpedia.org/ama/restful-web-services-example-in-java-with-jersey-spring-and-mybatis/
-[3] http://grizzly-nio.net/2013/08/grizzly-httpserver-spring-jersey-serve-static-content-from-a-folder-and-from-a-jar/
-[4] https://github.com/oleksiys/samples/tree/master/jersey1-grizzly2-spring
-[5] https://java.net/projects/grizzly/lists/users/archive/2013-01/message/0
-[6] http://stackoverflow.com/questions/15769415/grizzly-and-servletcontainercontext
-[7] http://alkalinezoo.blogspot.dk/2013/05/rest-testing-with-embedded-grizzly.html
-[8] http://www.byteslounge.com/tutorials/spring-jdbc-transactions-example
+- [1] https://github.com/amacoder/demo-restWS-spring-jersey-tomcat-mybatis/blob/master/pom.xml
+- [2] http://www.codingpedia.org/ama/restful-web-services-example-in-java-with-jersey-spring-and-mybatis/
+- [3] http://grizzly-nio.net/2013/08/grizzly-httpserver-spring-jersey-serve-static-content-from-a-folder-and-from-a-jar/
+- [4] https://github.com/oleksiys/samples/tree/master/jersey1-grizzly2-spring
+- [5] https://java.net/projects/grizzly/lists/users/archive/2013-01/message/0
+- [6] http://stackoverflow.com/questions/15769415/grizzly-and-servletcontainercontext
+- [7] http://alkalinezoo.blogspot.dk/2013/05/rest-testing-with-embedded-grizzly.html
+- [8] http://www.byteslounge.com/tutorials/spring-jdbc-transactions-example
