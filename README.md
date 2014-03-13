@@ -75,6 +75,8 @@ basically a merge of [2,4,7], where [7] provided the final clue.
 
 I also integrated Tomcat connection pool and made a small adjustment to show that the transactions work. 
 
+Other Resources
+---------------
 - [1] https://github.com/amacoder/demo-restWS-spring-jersey-tomcat-mybatis/blob/master/pom.xml
 - [2] http://www.codingpedia.org/ama/restful-web-services-example-in-java-with-jersey-spring-and-mybatis/
 - [3] http://grizzly-nio.net/2013/08/grizzly-httpserver-spring-jersey-serve-static-content-from-a-folder-and-from-a-jar/
