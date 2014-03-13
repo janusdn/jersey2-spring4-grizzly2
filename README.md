@@ -18,12 +18,13 @@ By doing some more digging I discovered [6,7,8] which gave me the inspiration I 
 
 The example
 -----------
-The example requires a Postgres SQL 9.1 database called "test" with a user called "testuser" and password "1234".
+The example requires a Postgres SQL 9.1 database called `test` with a user called `testuser` and password `1234`.
 
-CREATE USER testuser WITH PASSWORD '1234';
+```CREATE USER testuser WITH PASSWORD '1234';```
 
 The database should contain a table called "users" with the following schema:
 
+```
 CREATE TABLE users
 (
   id integer NOT NULL,
@@ -36,15 +37,15 @@ WITH (
 );
 ALTER TABLE users
   OWNER TO testuser;
-
+```
 
 Compile the code:
 
-  mvn clean compile
+  ```mvn clean compile```
 
 Create an Eclipse project:
 
-  mvn eclipse:eclipse
+  `mvn eclipse:eclipse`
 
 The example can be executed by running the com.test.Start class.
 
@@ -53,14 +54,14 @@ A server should be now be running on localhost:3388.
 
 The server can be exercised using the following curl command:
 
-  curl -v =X GET http://localhost:3388/test
+  `curl -v =X GET http://localhost:3388/test`
 
 which should return a 200 and the string "test". It should also add an entry to the users table.
 
 
 The transactions can be tested using this command:
 
-  curl -v =X GET http://localhost:3388/
+  `curl -v =X GET http://localhost:3388/`
 
 Which should return a 500 internal error. It would try to create an entry in the users table and then throw an
 UnsupportedOperationException. Which will make the transaction roll back. There should be no effect on the database.
